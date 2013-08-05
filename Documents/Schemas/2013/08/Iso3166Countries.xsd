@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://aliencube.org/schemas/2013/08/iso-3166-countries"
+	xmlns:mstns="http://aliencube.org/schemas/2013/08/iso-3166-countries"
+	targetNamespace="http://aliencube.org/schemas/2013/08/iso-3166-countries"
+	elementFormDefault="qualified"
+>
+	<xs:annotation>
+		<xs:documentation xml:lang="en">This describes the list of countries defined in ISO 3166.</xs:documentation>
+	</xs:annotation>
+
+	<xs:element name="Countries" type="Countries" />
+
+	<xs:complexType name="Countries">
+		<xs:sequence>
+			<xs:element name="Country" type="Country" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Country">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" />
+			<xs:element name="Code" type="xs:string" />
+			<xs:element name="SortOrder" type="xs:int" nillable="true" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

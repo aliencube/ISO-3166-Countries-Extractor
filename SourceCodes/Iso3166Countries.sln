@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso3166Countries.Services", "Iso3166Countries.Services\Iso3166Countries.Services.csproj", "{91804DAB-9DC9-41EA-8F7F-3B355683B52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso3166Countries.Console", "Iso3166Countries.Console\Iso3166Countries.Console.csproj", "{E0DC939F-892F-4013-B66B-46A24E08E492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{1936BE7B-D722-4001-9701-98CB1C3C378D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schemas", "Schemas", "{22906745-EF7E-4173-BAEF-AF13A6813BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2013", "2013", "{9C7244E5-181B-4BB8-9026-E78871DAD1FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08", "08", "{A7AF4144-A6C2-41E6-9137-96D53EF7ECEC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\Schemas\2013\08\Iso3166Countries.xsd = ..\Documents\Schemas\2013\08\Iso3166Countries.xsd
+		..\Documents\Schemas\2013\08\Iso3166CountriesByIso.xsd = ..\Documents\Schemas\2013\08\Iso3166CountriesByIso.xsd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iso3166Countries.Services.Utilities", "Iso3166Countries.Services.Utilities\Iso3166Countries.Services.Utilities.csproj", "{F5497C1D-7AE6-40FC-B0F1-DA0A16153048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91804DAB-9DC9-41EA-8F7F-3B355683B52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91804DAB-9DC9-41EA-8F7F-3B355683B52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91804DAB-9DC9-41EA-8F7F-3B355683B52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91804DAB-9DC9-41EA-8F7F-3B355683B52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DC939F-892F-4013-B66B-46A24E08E492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DC939F-892F-4013-B66B-46A24E08E492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DC939F-892F-4013-B66B-46A24E08E492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DC939F-892F-4013-B66B-46A24E08E492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5497C1D-7AE6-40FC-B0F1-DA0A16153048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5497C1D-7AE6-40FC-B0F1-DA0A16153048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5497C1D-7AE6-40FC-B0F1-DA0A16153048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5497C1D-7AE6-40FC-B0F1-DA0A16153048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22906745-EF7E-4173-BAEF-AF13A6813BF3} = {1936BE7B-D722-4001-9701-98CB1C3C378D}
+		{9C7244E5-181B-4BB8-9026-E78871DAD1FF} = {22906745-EF7E-4173-BAEF-AF13A6813BF3}
+		{A7AF4144-A6C2-41E6-9137-96D53EF7ECEC} = {9C7244E5-181B-4BB8-9026-E78871DAD1FF}
+	EndGlobalSection
+EndGlobal
